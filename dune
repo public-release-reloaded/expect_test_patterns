@@ -1,0 +1,6 @@
+(library
+ (name expect_test_patterns)
+ (public_name expect_test_patterns)
+ (libraries base expect_test_helpers_base re)
+ (preprocess
+  (pps ppx_variants_conv)))
