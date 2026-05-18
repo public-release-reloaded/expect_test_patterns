@@ -16,7 +16,7 @@ depends: [
   "expect_test_helpers_base"
   "ppx_variants_conv"
   "dune"                     {>= "3.17.0"}
-  "re"                       {>= "1.8.0"}
+  "re"                       {= "1.14.0+ox"}
 ]
 available: arch != "x86_32"
 synopsis: "Pattern matching for expect test output"

@@ -68,7 +68,7 @@ let match_lines actual_lines expect_lines =
   | Unequal_lengths -> false
 ;;
 
-let require_match ?cr ?(here = Stdlib.Lexing.dummy_pos) expect =
+let require_match ?cr ~(here : [%call_pos]) expect =
   let actual = Expect_test_helpers_base.expect_test_output ~here () in
   let actual_lines = make_actual_lines actual in
   let expect_lines = make_expect_lines expect in

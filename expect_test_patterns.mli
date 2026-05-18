@@ -27,4 +27,4 @@ open Expect_test_helpers_base
        it matches a hex regular expression (regexp)\n\
        this output ends with a null\000"
     ]} *)
-val require_match : ?cr:CR.t -> ?here:Stdlib.Lexing.position -> string -> unit
+val require_match : ?cr:CR.t -> here:[%call_pos] -> string -> unit
