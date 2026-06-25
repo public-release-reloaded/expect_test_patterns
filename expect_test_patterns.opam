@@ -1,9 +1,9 @@
 opam-version: "2.0"
 maintainer: "Jane Street developers"
 authors: ["Jane Street Group, LLC"]
-homepage: "https://github.com/janestreet/expect_test_patterns"
-bug-reports: "https://github.com/janestreet/expect_test_patterns/issues"
-dev-repo: "git+https://github.com/janestreet/expect_test_patterns.git"
+homepage: "https://github.com/public-release-reloaded/expect_test_patterns"
+bug-reports: "https://github.com/public-release-reloaded/expect_test_patterns/issues"
+dev-repo: "git+https://github.com/public-release-reloaded/expect_test_patterns.git#v0.18_preview.130.100+614+reloaded"
 doc: "https://ocaml.janestreet.com/ocaml-core/latest/doc/expect_test_patterns/index.html"
 license: "MIT"
 x-maintenance-intent: ["(latest)"]
